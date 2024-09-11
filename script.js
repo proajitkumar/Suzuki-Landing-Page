@@ -3,11 +3,13 @@ const dot = document.querySelectorAll(".dot");
 
 const toggle = document.querySelector(".toggle");
 const navigation = document.querySelector(".navigation");
+
+/*toggle*/
 toggle.onclick = function () {
   toggle.classList.toggle("active");
   navigation.classList.toggle("active");
 };
-
+/*slider*/
 const setActive = (i) => {
   for (slides of slide) {
     slides.classList.remove("active");
